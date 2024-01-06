@@ -1,0 +1,157 @@
+
+
+/* hero section */
+.hero{
+    height: 313px;
+    width: 100%;
+    background-image: url(/img/about/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .text{
+    text-align: center;
+    margin-top: 122px;
+}
+
+.hero .text h2{
+    font-size: 43px;
+  color: white;
+}
+
+.hero .text p{
+    color: white;
+  font-size: 16px;
+}
+
+/* about-us section */
+.about-us{
+    width: 100%;
+}
+.about-us-card{
+    display: flex;
+    width: 100%;
+}
+
+
+.about-us-image{
+    padding: 49px 68px;
+} 
+.about-us .text-section{
+    height: 23rem;
+    padding: 49px 68px 49px 0;
+}
+
+.about-us-heading{
+    color: gray;
+  font-size: 45px;
+  margin: 12px 0 0 10px;
+}
+
+.about-us-text{
+    margin: 12px 0;
+    font-size: 17px;
+    color: gray;
+}
+
+/* install-app section */
+.install-app{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.install-app h1{
+    font-size: 36px;
+    color: gray;
+}
+.install-app h1 a{
+    text-decoration-thickness: 4px;
+    color: gray;
+}
+.install-app h1 a span:hover{
+    cursor: pointer;
+}
+
+.install-app video{
+    height: 33rem;
+  width: 44rem;
+  border: 1px solid transparent;
+  border-radius: 17px;
+  margin: 12px 0;
+}
+
+
+
+/* featured section */
+.featured-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.featured-section .card-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.featured-section .card-section .card {
+    margin: 30px 25px;
+    border: 1px solid #cce7d0;
+    box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+
+
+.featured-section .card-section h6 {
+
+    height: 22px;
+    color: #088178;
+    padding: 5px 12px;
+    font-size: 13px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+
+.featured-section .card-section .card img {
+    margin-top: 20px;
+}
+
+.featured-section .card-section .card h6 {
+    background-color: #fddde4;
+}
+
+.featured-section .card-section .card:nth-child(2) h6 {
+    background-color: #d1e8f2;
+}
+
+.featured-section .card-section .card:nth-child(3) h6 {
+    background-color: #cdd4f8;
+}
+
+.featured-section .card-section .card:nth-child(4) h6 {
+    background-color: #f6dbf6;
+}
+
+.featured-section .card-section .card:nth-child(5) h6 {
+    background-color: #fff2e5;
+}
+
+.featured-section .card-section .card:nth-child(6) h6 {
+    background-color: #cdebbc;
+}
+

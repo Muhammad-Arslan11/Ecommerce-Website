@@ -1,0 +1,113 @@
+
+
+/* hero section */
+.hero{
+    height: 313px;
+    width: 100%;
+    background-image: url(/img/banner/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .text{
+    text-align: center;
+    margin-top: 122px;
+}
+
+.hero .text h2{
+    font-size: 43px;
+  color: white;
+}
+
+.hero .text p{
+    color: white;
+  font-size: 16px;
+}
+
+
+/* shop items */
+.shop-items{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.shop-items .featured-product-card {
+    padding: 15px 22px;
+    margin: 24px 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+}
+
+.shop-items .featured-product-card .card {
+    padding: 22px 22px;
+    margin: 14px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #cce7d0;
+    box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.shop-items .featured-product-card .card img {
+
+    height: 256px;
+    border-radius: 6px;
+
+}
+
+.shop-items .featured-product-card .card .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.shop-items .featured-product-card .card p {
+    /* color: gainsboro; */
+    color:#fff2e5;
+    font-size: 24px;
+}
+
+.shop-items .featured-product-card .card h6 {
+    font-size: 16px;
+}
+
+.shop-items .featured-product-card .card .price {
+    padding-top: 11px;
+}
+
+/* pagination style goes here*/
+.pagination{
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    /* float: left; */
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+  
+.shop-items .pagination a.active{
+     
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #A9A9A9;
+}

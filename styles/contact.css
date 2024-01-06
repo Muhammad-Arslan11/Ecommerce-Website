@@ -1,0 +1,167 @@
+
+/* hero section */
+.hero{
+    height: 313px;
+    width: 100%;
+    background-image: url(/img/about/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .text{
+    text-align: center;
+    margin-top: 122px;
+}
+
+.hero .text h2{
+    font-size: 43px;
+  color: white;
+}
+
+.hero .text p{
+    color: white;
+  font-size: 16px;
+}
+
+/* get-in-touch section */
+.get-in-touch{
+  display: flex;
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.get-in-touch .contact-info{
+  width: 44%;
+  height: 26rem;
+  margin: 38px 0 38px 48px;
+}
+
+.get-in-touch .text-section{
+ padding:  39px 23px 20px 58px;
+}
+.get-in-touch .text-section .sub-heading{
+  font-size: 15px;
+  color: gray;
+  font-weight: 100;
+}
+.get-in-touch .text-section .main-heading{
+  font-size: 23px;
+  margin-top: 17px;
+ 
+}
+.get-in-touch .text-section .text{
+   margin-top: 17px;
+   /* color: gray; */
+}
+
+
+.get-in-touch .address li{
+  list-style: none;
+  display: flex;
+  margin: 10px 0;
+}
+.get-in-touch .address li i{
+  padding-right: 22px;
+  font-size: 14px;
+  color: gray;
+}
+.get-in-touch .address li p{
+  font-size: 14px;
+  color: gray;
+}
+
+
+.get-in-touch .map{
+  width: 45%;
+  height: 26rem;
+  margin: 38px 20px 38px 0;
+}
+
+/* form section */
+section{
+  
+  width: 100%;
+}
+section .wrapper{
+  display: flex;
+  /* border: 1px solid gray; */
+  height: 37rem;
+  margin: 39px 31px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.6);
+}
+
+section .wrapper .form{
+  width: 59rem;
+  height: 37rem;
+}
+section .wrapper .form .text{
+  margin: 62px 0 0 62px;
+}
+section .wrapper .form .text h3{
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+section .wrapper .form .text h2{
+  margin-top: 17px;
+  font-size: 26px;
+}
+section .wrapper .form form{
+  margin: 0px 0 0 44px;
+}
+section .wrapper .form form input{
+  margin-top: 16px;
+  height: 30px;
+  font-size: 16px;
+  width: 48rem;
+  padding: 4px 0 4px 16px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+  background-color: #d3d3d3;
+  border: none;
+}
+section .wrapper .form form input:focus{
+  outline: none;
+}
+
+section .wrapper .form form div textarea{
+  margin-top: 16px;
+  font-size: 16px;
+  width: 48rem;
+  padding: 4px 0 4px 16px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+  background-color: #d3d3d3;
+  border: none;
+}
+section .wrapper .form form textarea:focus{
+  outline: none;
+}
+
+/* memebers section */
+section .members{
+  margin: 62px 0 0 0;
+}
+section .members .people{
+  display: flex;
+  margin-top: 36px;
+}
+section .members .text{
+  margin-left: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section .members .text p{
+  margin-top: 6px;
+  color:gray;
+}
+section .members #people1{
+  margin-top:0;
+}
+section .members .text h6{
+  color: gray;
+  font-size: 20px;
+}
+

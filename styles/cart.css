@@ -1,0 +1,154 @@
+
+
+/* hero section */
+.hero{
+    height: 313px;
+    width: 100%;
+    background-image: url(/img/about/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .text{
+    text-align: center;
+    margin-top: 122px;
+}
+
+.hero .text h2{
+    font-size: 43px;
+  color: white;
+}
+
+.hero .text p{
+    color: white;
+  font-size: 16px;
+}
+
+/* cart-table section */
+.cart-table{
+    width: 100%;
+}
+.cart-table .wrapper{
+    padding: 38px 50px;
+}
+
+/* Warning!! Copied code is being pasted here */
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.9em;
+    
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #088178;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #088178;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #088178;
+    /*   color: #088178; */
+}
+
+
+ /* coupon and cart-total wrapper here  */
+
+ .apply-coupon-and-cart-total{
+    width: 100%;
+ }
+.apply-coupon-and-cart-total .wrapper{
+    /* width:100%; */
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.apply-coupon{
+    padding:20px 0 20px 50px;
+    width: 43%;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+}
+.apply-coupon label{
+    font-size: 24px;
+    font-weight: 400;
+    /* color: gray; */
+}
+.apply-coupon-and-cart-total .apply-coupon .input{
+    display: flex;
+    margin-top: 16px;
+}
+.apply-coupon input{
+    background-color: #d3d3d3;
+   
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+  padding: 10px 10px;
+  height: 16px;
+  width: 100%;
+}
+.apply-coupon button{
+    margin-left: 10px;
+    height: 40px;
+    width: 135px;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+  font-weight: 100;
+  color: white;
+  background: #088178;
+}
+ .cart-totals{
+    padding:20px 50px 20px 0;
+    height: 17rem;
+  width: 43%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    
+}
+.cart-totals .heading{
+    font-size: 24px;
+  font-weight: 400;
+  margin-left: 13px;
+}
+.cart-table .cart-btn{
+    margin: 20px 10px;
+    padding: 9px 12px;
+    /* height: 40px;
+    width: 135px; */
+    cursor: pointer;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+  font-weight: 100;
+  color: white;
+  background: #088178;
+}
+.cart-table tbody td{
+    color: gray;
+}
+.cart-table tbody td:nth-child(2){
+    color: gray;
+}
