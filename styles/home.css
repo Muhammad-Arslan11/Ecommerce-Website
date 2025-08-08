@@ -5,7 +5,7 @@
     
     height: 100vh;
     width: 100%;
-    background-image: url(img/hero4.png);
+    background-image: url('../img/hero4.png');
     background-repeat: no-repeat;
     background-position: top 20% right 0;
     background-size: cover;
@@ -40,7 +40,7 @@
 
 .hero-section .text button {
     margin-top: 20px;
-    background-image: url(img/button.png);
+    background-image: url('../img/button.png');
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: cover;
@@ -202,7 +202,7 @@
     justify-content: center;
     align-items: center;
     margin: 30px 0;
-    background-image: url(/img/banner/b2.jpg);
+    background-image: url('../img/banner/b2.jpg');
     background-repeat: no-repeat;
     background-position: 20% 40%;
     background-color: #041e42;
@@ -323,7 +323,7 @@
 }
 
 .banner-section #banner1 {
-    background-image: url(/img/banner/b17.jpg);
+    background-image: url('../img/banner/b17.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 44%;
@@ -370,7 +370,7 @@
 
 
 .banner-section #banner2 {
-    background-image: url(img/banner/b10.jpg);
+    background-image: url('../img/banner/b10.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 44%;
@@ -418,7 +418,7 @@
 .bottom-left-banner {
     height: 258px;
     width: 25%;
-    background-image: url(img/banner/b7.jpg);
+    background-image: url('../img/banner/b7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0 0 57px;
@@ -444,7 +444,7 @@
 .bottom-middle-banner {
     height: 258px;
     width: 33%;
-    background-image: url(img/banner/b4.jpg);
+    background-image: url('../img/banner/b4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0 0 43px;
@@ -470,7 +470,7 @@
     height: 258px;
     ;
     width: 25%;
-    background-image: url(img/banner/b18.jpg);
+    background-image: url('../img/banner/b18.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0 0 66px;
