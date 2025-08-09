@@ -111,6 +111,11 @@
     flex-direction: column;
     align-items: center;
     border-radius: 6px;
+         transition: transform 0.3s ease;
+}
+.featured-section .card-section .card:hover{
+  transform: scale(1.03);
+    cursor:pointer;
 }
 
 

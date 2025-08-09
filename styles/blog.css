@@ -58,7 +58,7 @@
 .blog-card .card .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b1.jpg);
+    background-image: url('../img/blog/b1.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -66,7 +66,7 @@
 .blog-card .card:nth-child(2) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b2.jpg);
+    background-image: url('../img/blog/b2.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -74,7 +74,7 @@
 .blog-card .card:nth-child(3) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b3.jpg);
+    background-image: url('../img/blog/b3.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -82,7 +82,7 @@
 .blog-card .card:nth-child(4) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b4.jpg);
+    background-image: url('../img/blog/b4.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -90,7 +90,7 @@
 .blog-card .card:nth-child(5) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b5.jpg);
+    background-image: url('../img/blog/b5.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -98,7 +98,7 @@
 .blog-card .card:nth-child(6) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b6.jpg);
+    background-image: url('../img/blog/b6.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -106,7 +106,7 @@
 .blog-card .card:nth-child(7) .image{
     height: 14rem;
     width: 54rem;
-    background-image: url(/img/blog/b7.jpg);
+    background-image: url('../img/blog/b7.jpg');
     background-repeat: no-repeat;
     background-position: left 30% top 30%;
     background-size: cover;
@@ -128,9 +128,14 @@
     font-size: 17px;
     height: 40px;
     width: 185px;
-    cursor: pointer;
     color: gray;
+     transition: transform 0.3s ease;
 }
+.blog-description .blog-btn button:hover{
+  transform: scale(1.03);
+    cursor:pointer;
+} 
+
 
 /* pagination style goes here*/
 .pagination{

@@ -147,6 +147,15 @@ section .members .people{
   display: flex;
   margin-top: 36px;
 }
+
+section .members .people .image{
+  transition: transform 0.3s ease;
+}
+section .members .people .image:hover{
+  transform: scale(1.03);
+    cursor:pointer;
+} 
+
 section .members .text{
   margin-left: 14px;
   display: flex;

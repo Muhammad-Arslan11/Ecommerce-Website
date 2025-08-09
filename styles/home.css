@@ -78,9 +78,13 @@
     flex-direction: column;
     align-items: center;
     border-radius: 6px;
+    transition: transform 0.3s ease; 
 }
 
-
+.featured-section .card-section .card:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+}
 
 
 .featured-section .card-section h6 {
@@ -169,6 +173,11 @@
     text-align: center;
     border: 1px solid #cce7d0;
     box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.6);
+     transition: transform 0.3s ease; 
+}
+.featured-product-section .featured-product-card .card:hover{
+    transform: scale(1.03);
+    cursor:pointer;
 }
 
 
@@ -278,7 +287,13 @@
     flex-direction: column;
     border: 1px solid #cce7d0;
     box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.6);
+         transition: transform 0.3s ease; 
 }
+.new-arrival .new-arrival-card .card:hover{
+    transform: scale(1.03);
+    cursor:pointer;
+}
+
 
 .new-arrival .new-arrival-card .card .text-section {
     display: flex;
@@ -360,12 +375,15 @@
     background: transparent;
     color: white;
     font-size: 1.0rem;
+     transition: transform 0.3s ease;
 
 }
 
-.banner-section #banner1:hover button {
+.banner-section #banner1 button:hover  {
     background-color: #088178;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor:pointer;
+    transform: scale(1.03);
 }
 
 
@@ -405,12 +423,14 @@
     background: transparent;
     color: white;
     font-size: 1.0rem;
-
+   transition: transform 0.3s ease;
 }
 
-.banner-section #banner2:hover button {
+.banner-section #banner2 button:hover {
     background-color: #088178;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor:pointer;
+    transform: scale(1.03);
 }
 
 
